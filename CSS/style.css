@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.scenarios {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+    justify-self: center;
+    height: auto;
+}
+.button-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-self: end;
+}
